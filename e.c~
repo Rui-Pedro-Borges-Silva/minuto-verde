@@ -1,0 +1,22 @@
+#include <stdio.h>
+int main(){
+  int x ,contaz ,contam ,contv;
+  while(n <= 0){
+    scanf("%d",&n);
+    if(n >=1 && n <=10)
+      contaz = contaz + 1;
+    
+    if(n>=11 && n<=23)
+      contv = contv + 1;
+
+    if(n>= 24 && n<=40)
+      contam = contam + 1;
+
+  }
+  printf("o contentor azul tem : %d", contaz);
+  printf("o contentor amarelo tem : %d", contam);
+  printf("o contentos verde tem : %d", contv);
+  return 0;
+  
+    
+  
